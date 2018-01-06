@@ -1,4 +1,4 @@
-# Postgresql docker image
+# dictycontent-postgres
 This is a source repository for [docker](http://docker.io) image
 to run `dictycontent` database instance. It is based on the generic
 alpine postgresql [image](https://store.docker.com/images/postgres). The
