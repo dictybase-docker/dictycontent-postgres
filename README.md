@@ -1,9 +1,11 @@
 # Postgresql docker image
 This is a source repository for [docker](http://docker.io) image designed to
-run [postgresql](https://en.wikipedia.org/wiki/PostgreSQL) database instance in
+run `dictycontent` database instance in
 docker container. It is based on the generic alpine postgresql
-[image](https://store.docker.com/images/postgres). The documentation provided
-in the base docker image are also applicable for this image.
+[image](https://store.docker.com/images/postgres). The documentation of the base
+docker image is also applicable here.
+
+## Supported tags
 
 ## Additional features
 ### Configuration files
