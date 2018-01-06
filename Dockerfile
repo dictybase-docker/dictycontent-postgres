@@ -9,6 +9,6 @@ COPY *.sh /docker-entrypoint-initdb.d/
 
 # Add env variables for example, to new users during initialization 
 # Those can be used in the start up script(.sh files) to run against the database
-ENV DICTYCONTENT_USER
-ENV DICTYCONTENT_PASSWORD
-ENV DICTYCONTENT_DB
+ENV DICTYCONTENT_USER dictycontent
+ENV DICTYCONTENT_PASSWORD contentpass
+ENV DICTYCONTENT_DB dictycontent

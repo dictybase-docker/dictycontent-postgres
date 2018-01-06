@@ -34,10 +34,14 @@ user, password and database during the initialization process. The following
 environmental variables should be used setting them up...
 
 ```
-DICTYCONTENT_USER
-DICTYCONTENT_PASSWORD
-DICTYCONTENT_DB
+DICTYCONTENT_USER  -  dictycontent(default)
+DICTYCONTENT_PASSWORD - contentpass(default)
+DICTYCONTENT_DB - dictycontent(default)
 ```
+
+It is highly recommended to change or not to use the default values for those
+env variables.
+
 
 ## Usage
 It's identical to the base image, read the documentation
