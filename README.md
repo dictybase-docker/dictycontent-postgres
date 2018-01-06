@@ -5,6 +5,7 @@ alpine postgresql [image](https://store.docker.com/images/postgres). The
 documentation of the base docker image is also applicable here.
 
 ## Supported tags
+- [1.0.0, latest (Dockerfile)](https://github.com/dictybase-docker/dictycontent-postgres/blob/1.0.0/Dockerfile)
 
 ## Additional features
 ### Configuration files
