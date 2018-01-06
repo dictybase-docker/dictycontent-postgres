@@ -33,7 +33,9 @@ user, password and database during the initialization process. The following
 environmental variables should be used setting them up...
 
 ```
-Add there or more environmental variables here. Also add them to docker file.
+DICTYCONTENT_USER
+DICTYCONTENT_PASSWORD
+DICTYCONTENT_DB
 ```
 
 ## Usage
@@ -56,6 +58,5 @@ For details look [here](https://github.com/docker-library/docs/tree/master/postg
 ## Deploy
 The container is intended to be deployed in [kubernetes](http://kubernetes.io)
 using [helm](https://github.com/kubernetes/helm). Use the corresponding
-[chart]()
-for  deployment. 
+[chart]() for  deployment. 
 
