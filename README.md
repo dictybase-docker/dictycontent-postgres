@@ -60,9 +60,9 @@ docker run -d --name some-postgres postgres -c 'shared_buffers=256MB' -c 'max_co
 
 For details look [here](https://github.com/docker-library/docs/tree/master/postgres#database-configuration)
 
-
 ## Deploy
 The container is intended to be deployed in [kubernetes](http://kubernetes.io)
 using [helm](https://github.com/kubernetes/helm). Use the corresponding
-[chart]() for  deployment. 
+[chart](https://github.com/dictybase-docker/kubernetes-charts/tree/master/dictycontent-postgres)
+for deployment. 
 
