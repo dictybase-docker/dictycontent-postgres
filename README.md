@@ -38,6 +38,9 @@ environmental variables should be used setting them up...
 DICTYCONTENT_USER  -  dictycontent(default)
 DICTYCONTENT_PASSWORD - contentpass(default)
 DICTYCONTENT_DB - dictycontent(default)
+DICTYUSER_USER  -  dictyuser(default)
+DICTYUSER_PASSWORD - dictypass(default)
+DICTYUSER_DB - dictyuser(default)
 ```
 
 It is highly recommended to change or not to use the default values for those

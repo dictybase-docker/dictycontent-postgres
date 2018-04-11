@@ -12,3 +12,6 @@ COPY *.sh /docker-entrypoint-initdb.d/
 ENV DICTYCONTENT_USER dictycontent
 ENV DICTYCONTENT_PASSWORD contentpass
 ENV DICTYCONTENT_DB dictycontent
+ENV DICTYUSER_USER dictyuser
+ENV DICTYUSER_PASSWORD userpass
+ENV DICTYUSER_DB dictyuser
